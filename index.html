@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Muuuusiccc</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+</head>
+<body>
+    <div class="search-container">
+            <h2>I Love Music</h2>
+        <form id="musicSearch">
+                <input class="search" type="search" name="q" id="formSearchText" placeholder="Search for your favorite music.." autocomplete="off"><i id="clear" class="fas fa-times"></i>
+        </form>
+        <div id="radioButton">
+                <input type="radio" name="selection" value="artist" checked> Artist
+                <input type="radio" name="selection" value="Albums"> Albums
+                <input type="radio" name="selection" value="tracks"> Tracks
+        </div>
+    </div>
+    
+
+    <section class="music-result" id="musicResult">
+        
+    </section>
+    <script src="Assets/JavaScript/app.js"></script>
+</body>
+</html>
