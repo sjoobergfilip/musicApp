@@ -1,12 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body{
+    background-color: #192a56;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+h2{
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+
 .search-container{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -17,8 +33,30 @@
 }
 
 #formSearchText{
-    width: 300px;
+    width: 400px;
     height: 70px;
+    border-radius: 1rem;
+    text-transform: uppercase;
+}
+#radioButton{
+    width: 300px;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+#clear{
+    margin-left: 2rem;
+    font-size: 2rem;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#clear:hover{
+    color: #3c6382;
+
 }
 
 .music-result{
@@ -32,4 +70,5 @@
 .music-result .card{
     width: 100px;
     margin-top: 2rem;
+    color: black;
 }
